@@ -8,7 +8,7 @@ class String
    blue: 34,
    light_gray: 37,
    light_blue: 94,
-   light_magenta: 95,
+   pink: 95, # code for 'light_magenta', but calling 'pink' for short
    white: 97
  }
 
