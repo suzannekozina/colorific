@@ -1,3 +1,9 @@
+***How does your gem take advantage of Ruby’s metaprogramming capabilities?
+
+I re-opened the string class and created the 'create-colors', 'colors'
+and 'sample_colors' methods to make new modifications available to the class
+itself.
+
 While working on this project I was discovered "Ruby Constants." I read a post
 by Satish Talim on rubylearning.com
 [http://rubylearning.com/satishtalim/ruby_constants.html].
@@ -7,22 +13,31 @@ by Satish Talim on rubylearning.com
 The main takeaway from this article for me was that a ruby constant follows many
 of the same patterns I'd expect of a ruby variable, but in the case of a
 constant its value is intended to remain consistent throughout the program.
-Exactly what I was looking for! Ruby rocks!
+That's exactly what I was looking for when writing the code for this gem! Ruby rocks!
 
 The other mind-blowing discovery for me was the 'define_method'. I found a few
 excellent explanations, but this explanation from Railstic.com
 [http://railstic.com/2011/06/dynamically-defining-methods-with-define_method/]
 is the one that really hit home for me. The post also introduced me to the
 metaprogramming term 'singleton class' which reaped some very interesting Google
-search results. I found the singleton pattern,which led me to the Wikipedia
+search results. I found the singleton pattern, which led me to the Wikipedia
 article on Singleton (mathematics), which reminded me of the common core state
 standard HSF.IF.1. Then it dawned on me that high school math students are
 learning the ruby "each do" pattern in their boring old functions class.
+Thus Ruby has made math functions super-cool. Way to go Ruby! :)
 
-Wow. When I was in high school I learned about functions, just to get an "A' in
-the class. But Ruby has made math functions super-cool. Way to go Ruby! :)
+These are all new discoveries to me and have allowed me to begin leveraging
+metaprogramming capabilities with Ruby. Specifically, taking the COLORS hash
+in my gem and converting the key-value pairs to Ruby methods using 'define-method'
+is a metaprogamming capability that was very rewarding for me to get working in
+my gem.
 
-Finally, in conjunction with this project, I completed Walter Latimer's
-README.md course. It was very helpful when writing the README file for my gem.
+***How long did you spend working on this project?
+I spent about 4 hours working on the code of this project. I spent about 4 hours
+for research and supplemental learning such as Walter Latimer's README.md course.
+
+***Where do you still have room to grow?
+I've only scratched the surface of metaprogramming with Ruby. I look forward to
+learning much more.
 
 Thanks for reading this edition of Suzanne Kozina's reflections.
