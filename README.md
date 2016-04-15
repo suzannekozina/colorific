@@ -25,7 +25,7 @@ Colorize any string that is output to the command terminal
 ```
 gem install colorizr-0.0.2.gem
 ```
-* At the top of the file you wish to use it with be sure to add:
+* At the top of the file you wish to use the gem with be sure to add:
 ```
 require 'colorizr'
 ```
