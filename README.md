@@ -14,16 +14,14 @@ Colorize any string that is output to the command terminal
 * `white`
 
 ###Additional String methods
-* `String.colors`
-**Lists all colors available
-* `String.sample_colors`
-**Demonstrates all colors available
-Screenshot
-![colors example](image/sample_colors.JPG)
+1. `String.colors` - Lists all colors available
+2. `String.sample_colors` - Demonstrates all colors available
+
+![String.sample-colors](image/sample_colors.JPG)
 
 ##Installation
 * Download this repository
-* Install the gem by entering running the following command:
+* Install the gem by running the following command:
 ```
 gem install colorizr-0.0.2.gem
 ```
@@ -41,4 +39,4 @@ Suzanne Kozina
 ##Acknowledgements
 Many thanks to the Udacity Ruby Content Team for providing exceptional learning tools that made it possible for me to find my way in creating my first Ruby gem.
 ###License
-This project is licensed under the MIT License. See [LICENSE.md](LICENSE.md) file.
+This project is licensed under the MIT License. See [LICENSE.txt](LICENSE.txt) file.
