@@ -20,12 +20,12 @@ Colorize any string that is output to the command terminal
 ![String.sample-colors](image/sample_colors.JPG)
 
 ##Installation
-1. Download this repository
-2. Install the gem by running the following command:
+* Download this repository
+* Install the gem by running the following command:
 ```
 gem install colorizr-0.0.2.gem
 ```
-3. At the top of the file you wish to use it with be sure to add:
+* At the top of the file you wish to use it with be sure to add:
 ```
 require 'colorizr'
 ```
