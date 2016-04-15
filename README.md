@@ -15,7 +15,11 @@ Colorize any string that is output to the command terminal
 
 ###Additional String methods
 * `String.colors`
+**Lists all colors available
 * `String.sample_colors`
+**Demonstrates all colors available
+Screenshot
+![colors example](image/sample_colors.JPG)
 
 ##Installation
 * Download this repository
@@ -29,11 +33,12 @@ require 'colorizr'
 ```
 
 ###Built with
-Ruby
+*Ruby*
 
-###Authors
+###Author
 Suzanne Kozina
+
 ##Acknowledgements
-Udacity Ruby Content Team for providing the learning tools that made it possible for me to create my own Ruby gem.
+Many thanks to the Udacity Ruby Content Team for providing exceptional learning tools that made it possible for me to find my way in creating my first Ruby gem.
 ###License
-This project is licensed under the MIT License
+This project is licensed under the MIT License. See [LICENSE.md](LICENSE.md) file.

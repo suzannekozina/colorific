@@ -1,36 +1,28 @@
 While working on this project I was discovered "Ruby Constants." I read a post
-[http://rubylearning.com/satishtalim/ruby_constants.html] by Satish Talim  on
-rubylearning.com. **Mind blown!** How amazing is Ruby!?  Here is a short excerpt
-of Talim's post:
+by Satish Talim on rubylearning.com
+[http://rubylearning.com/satishtalim/ruby_constants.html].
 
-* Constants defined within a class or module may be accessed anywhere within the
-class or module.
-* Outside the class or module, they may be accessed using the scope operator,
-:: prefixed by an expression that returns the appropriate class or module.
-* Constants may be added to existing classes and modules from the outside by
-using the class or module name and the scope operator before the constant name.
+**Mind blown!** How amazing is Ruby!?
 
-PERFECT! A ruby constant follows many of the same patterns that I would expect
-of a ruby variable, but in the case of a constant its value is intended to
-remain consistent throughout the program. Exactly what I was looking for! Ruby rocks!
+The main takeaway from this article for me was that a ruby constant follows many
+of the same patterns I'd expect of a ruby variable, but in the case of a
+constant its value is intended to remain consistent throughout the program.
+Exactly what I was looking for! Ruby rocks!
 
 The other mind-blowing discovery for me was the 'define_method'. I found a few
-excellent explanations of 'define_method', but this explanation is the one that
-really hit home for me, http://railstic.com/2011/06/dynamically-defining-methods-with-define_method/.
-The post also introduced me to the metaprogramming term 'singleton class' which
-reaped some very interesting Google search results. I found the singleton pattern,
-which led me to the Wikipedia article on Singleton (mathematics), which reminded
-me of the common core state standard HSF.IF.1. Then it dawned on me that high school
-math students are learning the ruby "each do" pattern in their boring old functions
-class.
-
-"F.IF.1 Understand that a function from one set (called the domain) to
-another set (called the range) assigns to each element of the domain
-exactly one element of the range. If f is a function and x is an element of
-its domain, then f(x) denotes the output of f corresponding to the input
-x. The graph of f is the graph of the equation y = f(x)."
+excellent explanations, but this explanation from Railstic.com
+[http://railstic.com/2011/06/dynamically-defining-methods-with-define_method/]
+is the one that really hit home for me. The post also introduced me to the
+metaprogramming term 'singleton class' which reaped some very interesting Google
+search results. I found the singleton pattern,which led me to the Wikipedia
+article on Singleton (mathematics), which reminded me of the common core state
+standard HSF.IF.1. Then it dawned on me that high school math students are
+learning the ruby "each do" pattern in their boring old functions class.
 
 Wow. When I was in high school I learned about functions, just to get an "A' in
 the class. But Ruby has made math functions super-cool. Way to go Ruby! :)
+
+Finally, in conjunction with this project, I completed Walter Latimer's
+README.md course. It was very helpful when writing the README file for my gem.
 
 Thanks for reading this edition of Suzanne Kozina's reflections.
