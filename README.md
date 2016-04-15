@@ -14,18 +14,18 @@ Colorize any string that is output to the command terminal
 * `white`
 
 ###Additional String methods
-1. `String.colors` - Lists all colors available
-2. `String.sample_colors` - Demonstrates all colors available
+* `String.colors` - Lists all colors available
+* `String.sample_colors` - Demonstrates all colors available
 
 ![String.sample-colors](image/sample_colors.JPG)
 
 ##Installation
-* Download this repository
-* Install the gem by running the following command:
+1. Download this repository
+2. Install the gem by running the following command:
 ```
 gem install colorizr-0.0.2.gem
 ```
-* At the top of the file you wish to use it with be sure to add:
+3. At the top of the file you wish to use it with be sure to add:
 ```
 require 'colorizr'
 ```
