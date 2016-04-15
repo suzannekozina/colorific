@@ -8,8 +8,6 @@ While working on this project I was discovered "Ruby Constants." I read a post
 by Satish Talim on rubylearning.com
 [http://rubylearning.com/satishtalim/ruby_constants.html].
 
-**Mind blown!** How amazing is Ruby!?
-
 The main takeaway from this article for me was that a ruby constant follows many
 of the same patterns I'd expect of a ruby variable, but in the case of a
 constant its value is intended to remain consistent throughout the program.
@@ -35,6 +33,9 @@ my gem.
 ***How long did you spend working on this project?
 I spent about 4 hours working on the code of this project. I spent about 4 hours
 for research and supplemental learning such as Walter Latimer's README.md course.
+
+***What was the most rewarding challenge you conquered?
+Successfully utilizing a Ruby constant (COLORS) and the 'define-method'.
 
 ***Where do you still have room to grow?
 I've only scratched the surface of metaprogramming with Ruby. I look forward to
