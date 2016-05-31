@@ -18,21 +18,15 @@ excellent explanations, but this explanation from Railstic.com
 [http://railstic.com/2011/06/dynamically-defining-methods-with-define_method/]
 is the one that really hit home for me. The post also introduced me to the
 metaprogramming term 'singleton class' which reaped some very interesting Google
-search results. I found the singleton pattern, which led me to the Wikipedia
+search results. 
+
+I searched the term, "singleton pattern," which led me to the Wikipedia
 article on Singleton (mathematics), which reminded me of the common core state
-standard HSF.IF.1. Then it dawned on me that high school math students are
+standard HSF.IF.1. [http://www.corestandards.org/Math/Content/HSF/IF/A/1/].
+Then it dawned on me that high school math students are
 learning the ruby "each do" pattern in their boring old functions class.
-Thus Ruby has made math functions super-cool. Way to go Ruby! :)
-
-These are all new discoveries to me and have allowed me to begin leveraging
-metaprogramming capabilities with Ruby. Specifically, taking the COLORS hash
-in my gem and converting the key-value pairs to Ruby methods using 'define-method'
-is a metaprogamming capability that was very rewarding for me to get working in
-my gem.
-
-***How long did you spend working on this project?
-I spent about 4 hours working on the code of this project. I spent about 4 hours
-for research and supplemental learning such as Walter Latimer's README.md course.
+Thus Ruby has made High School mathematical functions super-cool. 
+Way to go Ruby! :)
 
 ***What was the most rewarding challenge you conquered?
 Successfully utilizing a Ruby constant (COLORS) and the 'define-method'.
