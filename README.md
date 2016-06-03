@@ -1,4 +1,4 @@
-#Colorizr
+#Colorific
 Colorize any string that is output to the command terminal
 
 ##Features
